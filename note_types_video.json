@@ -7,22 +7,19 @@
       "value": "c_video",
       "synonyms": [
         "\"https://www.youtube.com/watch?v=AQ7bJuW_PDk\"",
-        "note_c",
-        "a_video"
+        "note_c"
       ]
     },
     {
       "value": "d_video",
       "synonyms": [
         "\"https://www.youtube.com/watch?v=13IHoUsFEa0\"",
-        "note_d",
-        "d_video"
+        "note_d"
       ]
     },
     {
       "value": "e_video",
       "synonyms": [
-        "e_video",
         "\"https://www.youtube.com/watch?v=0dIRvL2xgmU&list=RD13IHoUsFEa0&index=7\"",
         "note_e"
       ]
@@ -30,7 +27,6 @@
     {
       "value": "f_video",
       "synonyms": [
-        "f_video",
         "\"https://www.youtube.com/watch?v=9cbjFevW9AY\"",
         "note_f"
       ]
@@ -38,7 +34,6 @@
     {
       "value": "g_video",
       "synonyms": [
-        "g_video",
         "\"https://www.youtube.com/watch?v=ojVDHGw_ol0&list=RD13IHoUsFEa0&index=24\"",
         "note_g"
       ]
@@ -46,7 +41,6 @@
     {
       "value": "a_video",
       "synonyms": [
-        "a_video",
         "\"https://www.youtube.com/watch?v=zX3lemg1aWA&list=RD13IHoUsFEa0&index=15\"",
         "note_a"
       ]
@@ -54,7 +48,6 @@
     {
       "value": "b_video",
       "synonyms": [
-        "b_video",
         "\"https://www.youtube.com/watch?v=0LMJxRBwo9g\"",
         "note_b"
       ]
