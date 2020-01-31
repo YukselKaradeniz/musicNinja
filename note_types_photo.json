@@ -7,49 +7,56 @@
       "value": "image_d",
       "synonyms": [
         "image_d",
-        "https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/2875/Low%20D.jpg"
+        "\"https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/2875/Low%20D.jpg\"",
+        "note_d"
       ]
     },
     {
       "value": "image_c",
       "synonyms": [
-        "https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/2875/Middle%20C.jpg",
-        "image_c"
+        "\"https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/2875/Middle%20C.jpg\"",
+        "image_c",
+        "note_c"
       ]
     },
     {
       "value": "image_e",
       "synonyms": [
         "image_e",
-        "https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/2875/High%20E.jpg"
+        "\"https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/2875/High%20E.jpg\"",
+        "note_e"
       ]
     },
     {
       "value": "image_f",
       "synonyms": [
         "image_f",
-        "https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/2875/Low%20F.jpg"
+        "\"https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/2875/Low%20F.jpg\"",
+        "note_f"
       ]
     },
     {
       "value": "image_g",
       "synonyms": [
         "image_g",
-        "https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/2875/High%20G.jpg"
+        "\"https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/2875/High%20G.jpg\"",
+        "note_g"
       ]
     },
     {
       "value": "image_a",
       "synonyms": [
         "image_a",
-        "https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/2875/Low%20A.jpg"
+        "\"https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/2875/Low%20A.jpg\"",
+        "note_a"
       ]
     },
     {
       "value": "image_b",
       "synonyms": [
         "image_b",
-        "https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/2875/B.jpg"
+        "\"https://www.cusd80.com/cms/lib/AZ01001175/Centricity/Domain/2875/B.jpg\"",
+        "note_b"
       ]
     }
   ],
