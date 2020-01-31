@@ -1,0 +1,121 @@
+{
+  "id": "c04c0abb-0142-4c4f-9939-921ef477ad20",
+  "name": "play_note",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "af9d6961-6924-4b1a-89a8-2d7067b1db3a",
+          "required": false,
+          "dataType": "@note_type",
+          "name": "noteName",
+          "value": "$noteName",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "condition": "",
+          "payload": {
+            "payload": {
+              "google": {
+                "expectUserResponse": true,
+                "richResponse": {
+                  "items": [
+                    {
+                      "simpleResponse": {
+                        "textToSpeech": "This is a media response example."
+                      }
+                    },
+                    {
+                      "mediaResponse": {
+                        "mediaType": "AUDIO",
+                        "mediaObjects": [
+                          {
+                            "contentUrl": "https://www.youtube.com/watch?v=SyCOO85Ntqg",
+                            "description": "Note C",
+                            "icon": {
+                              "url": "https://storage.googleapis.com/automotive-media/album_art.jpg",
+                              "accessibilityText": "Album cover of an ocean view"
+                            },
+                            "name": "Jazz in Paris"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "suggestions": [
+                    {
+                      "title": "Basic Card"
+                    },
+                    {
+                      "title": "List"
+                    },
+                    {
+                      "title": "Carousel"
+                    },
+                    {
+                      "title": "Browsing Carousel"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "you just learnt $noteName"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "3d92db28-fb40-482f-b2f8-8b5f7631be3b",
+      "data": [
+        {
+          "text": "give me note ",
+          "userDefined": false
+        },
+        {
+          "text": "note_type",
+          "alias": "noteName",
+          "meta": "@note_type",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}
