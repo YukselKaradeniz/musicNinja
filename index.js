@@ -25,6 +25,27 @@ restService.use(
 
 restService.use(bodyParser.json());
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC9OlOmFjdFFrN2735AuU0oh6bbJn0FA1A",
+    authDomain: "musicninja-25923.firebaseapp.com",
+    databaseURL: "https://musicninja-25923.firebaseio.com",
+    projectId: "musicninja-25923",
+    storageBucket: "musicninja-25923.appspot.com",
+    messagingSenderId: "1090808792550",
+    appId: "1:1090808792550:web:742c7ca7a12dcf8f32c227"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
 restService.post("/echo", function(req, res) {
   var speech =
     req.body.queryResult &&
